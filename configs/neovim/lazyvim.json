@@ -1,4 +1,4 @@
 {
-  "extras": [ "lazyvim.plugins.extras.lang.go" ],
+  "extras": [ "lazyvim.plugins.extras.lang.go", "lazyvim.plugins.extras.lang.ruby", "lazyvim.plugins.extras.lang.elixir" ],
   "version": 6
 }
