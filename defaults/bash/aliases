@@ -22,9 +22,21 @@ alias lzg='lazygit'
 alias lzd='lazydocker'
 
 # Git
-alias gcm='git commit -m'
-alias gcam='git commit -a -m'
-alias gcad='git commit -a --amend'
+alias g='git'
+alias gst='git status'
+alias ga='git add'
+alias gaa='git add --all'
+alias gbl='git blame -w'
+alias gb='git branch'
+alias gbd='git branch --delete'
+alias gbD='git branch --delete --force'
+alias gc!='git commit --verbose --amend'
+alias gcmsg='git commit --message'
+alias gco='git checkout'
+alias gcb='git checkout -b'
+alias gcB='git checkout -B'
+alias gcm='git checkout $(git_main_branch)'
+alias ggpush='git push origin $(git branch --show-current)'
 
 # Compression
 compress() { tar -czf "${1%/}.tar.gz" "${1%/}"; }
